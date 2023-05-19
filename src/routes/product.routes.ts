@@ -11,5 +11,7 @@ router.get("/getAll", controllers.product.getProducts)
 router.put("/update", controllers.product.updateProduct)
 router.delete ("/delete", controllers.product.deleteProduct)
 
+router.get("/factura/:id/:idX", controllers.product.factura)
+
 
 export default router
